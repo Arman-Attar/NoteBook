@@ -7,18 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C20C441229A01166007D1C8E /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = C20C441129A01166007D1C8E /* Lottie */; };
+		C20C441429A0117E007D1C8E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20C441329A0117E007D1C8E /* LoadingView.swift */; };
+		C20C441629A01250007D1C8E /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = C20C441529A01250007D1C8E /* loading.json */; };
 		C22490992995DFC500C70E02 /* NoteBookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490982995DFC500C70E02 /* NoteBookApp.swift */; };
-		C224909B2995DFC500C70E02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224909A2995DFC500C70E02 /* ContentView.swift */; };
+		C224909B2995DFC500C70E02 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224909A2995DFC500C70E02 /* AddBookView.swift */; };
 		C224909D2995DFC600C70E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C224909C2995DFC600C70E02 /* Assets.xcassets */; };
 		C22490A02995DFC600C70E02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C224909F2995DFC600C70E02 /* Preview Assets.xcassets */; };
+		C22490AB2995E07A00C70E02 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490AA2995E07A00C70E02 /* config.swift */; };
+		C22490AE2995E10D00C70E02 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490AD2995E10D00C70E02 /* Book.swift */; };
+		C22490B02995E4B800C70E02 /* BookVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490AF2995E4B800C70E02 /* BookVM.swift */; };
+		C22490B32995E54900C70E02 /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490B22995E54900C70E02 /* BookService.swift */; };
+		C22490B62995E78D00C70E02 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = C22490B52995E78D00C70E02 /* CodeScanner */; };
+		C22490B92995EAA400C70E02 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = C22490B82995EAA400C70E02 /* SDWebImageSwiftUI */; };
+		C22490BC2996C65400C70E02 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490BB2996C65400C70E02 /* HomePage.swift */; };
+		C22490BE2996DB3500C70E02 /* BookPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490BD2996DB3500C70E02 /* BookPreviewView.swift */; };
+		C22490C22998A70A00C70E02 /* BookCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490C12998A70A00C70E02 /* BookCellView.swift */; };
+		C22490C42998AAC200C70E02 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22490C32998AAC200C70E02 /* CoreDataViewModel.swift */; };
+		C22490C72998AB4300C70E02 /* BooksContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C22490C52998AB4300C70E02 /* BooksContainer.xcdatamodeld */; };
+		C22A0204299CA36A008DF8C9 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22A0203299CA36A008DF8C9 /* BookDetailView.swift */; };
+		C23984F3299DD8E00066DA09 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23984F2299DD8E00066DA09 /* AddNoteView.swift */; };
+		C2E2D175299EC198008CB4D7 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D174299EC198008CB4D7 /* NoteView.swift */; };
+		C2E2D177299EEA3B008CB4D7 /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D176299EEA3B008CB4D7 /* NoteCellView.swift */; };
+		C2E2D17929A00E0C008CB4D7 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D17829A00E0C008CB4D7 /* LottieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C20C441329A0117E007D1C8E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C20C441529A01250007D1C8E /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
 		C22490952995DFC500C70E02 /* NoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22490982995DFC500C70E02 /* NoteBookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteBookApp.swift; sourceTree = "<group>"; };
-		C224909A2995DFC500C70E02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C224909A2995DFC500C70E02 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		C224909C2995DFC600C70E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C224909F2995DFC600C70E02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C22490AA2995E07A00C70E02 /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		C22490AD2995E10D00C70E02 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		C22490AF2995E4B800C70E02 /* BookVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVM.swift; sourceTree = "<group>"; };
+		C22490B22995E54900C70E02 /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		C22490BA2995EC7600C70E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C22490BB2996C65400C70E02 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		C22490BD2996DB3500C70E02 /* BookPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPreviewView.swift; sourceTree = "<group>"; };
+		C22490C12998A70A00C70E02 /* BookCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCellView.swift; sourceTree = "<group>"; };
+		C22490C32998AAC200C70E02 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
+		C22490C62998AB4300C70E02 /* BooksContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BooksContainer.xcdatamodel; sourceTree = "<group>"; };
+		C22A0203299CA36A008DF8C9 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		C23984F2299DD8E00066DA09 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		C2E2D174299EC198008CB4D7 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		C2E2D176299EEA3B008CB4D7 /* NoteCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellView.swift; sourceTree = "<group>"; };
+		C2E2D17829A00E0C008CB4D7 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22490B92995EAA400C70E02 /* SDWebImageSwiftUI in Frameworks */,
+				C22490B62995E78D00C70E02 /* CodeScanner in Frameworks */,
+				C20C441229A01166007D1C8E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +90,15 @@
 		C22490972995DFC500C70E02 /* NoteBook */ = {
 			isa = PBXGroup;
 			children = (
+				C20C441529A01250007D1C8E /* loading.json */,
+				C22490BA2995EC7600C70E02 /* Info.plist */,
+				C22490AC2995E0FD00C70E02 /* Models */,
+				C22490A92995E01800C70E02 /* DataService */,
+				C22490A82995E00E00C70E02 /* Utils */,
+				C22490A72995E00800C70E02 /* ViewModels */,
+				C22490A62995DFFC00C70E02 /* Views */,
 				C22490982995DFC500C70E02 /* NoteBookApp.swift */,
-				C224909A2995DFC500C70E02 /* ContentView.swift */,
+				C22490C52998AB4300C70E02 /* BooksContainer.xcdatamodeld */,
 				C224909C2995DFC600C70E02 /* Assets.xcassets */,
 				C224909E2995DFC600C70E02 /* Preview Content */,
 			);
@@ -65,6 +111,56 @@
 				C224909F2995DFC600C70E02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C22490A62995DFFC00C70E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C224909A2995DFC500C70E02 /* AddBookView.swift */,
+				C22490BB2996C65400C70E02 /* HomePage.swift */,
+				C22490BD2996DB3500C70E02 /* BookPreviewView.swift */,
+				C22490C12998A70A00C70E02 /* BookCellView.swift */,
+				C22A0203299CA36A008DF8C9 /* BookDetailView.swift */,
+				C23984F2299DD8E00066DA09 /* AddNoteView.swift */,
+				C2E2D174299EC198008CB4D7 /* NoteView.swift */,
+				C2E2D176299EEA3B008CB4D7 /* NoteCellView.swift */,
+				C2E2D17829A00E0C008CB4D7 /* LottieView.swift */,
+				C20C441329A0117E007D1C8E /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C22490A72995E00800C70E02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C22490AF2995E4B800C70E02 /* BookVM.swift */,
+				C22490C32998AAC200C70E02 /* CoreDataViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C22490A82995E00E00C70E02 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C22490AA2995E07A00C70E02 /* config.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C22490A92995E01800C70E02 /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				C22490B22995E54900C70E02 /* BookService.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
+		C22490AC2995E0FD00C70E02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C22490AD2995E10D00C70E02 /* Book.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +179,11 @@
 			dependencies = (
 			);
 			name = NoteBook;
+			packageProductDependencies = (
+				C22490B52995E78D00C70E02 /* CodeScanner */,
+				C22490B82995EAA400C70E02 /* SDWebImageSwiftUI */,
+				C20C441129A01166007D1C8E /* Lottie */,
+			);
 			productName = NoteBook;
 			productReference = C22490952995DFC500C70E02 /* NoteBook.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +212,11 @@
 				Base,
 			);
 			mainGroup = C224908C2995DFC500C70E02;
+			packageReferences = (
+				C22490B42995E78D00C70E02 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				C22490B72995EAA400C70E02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				C20C441029A01166007D1C8E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = C22490962995DFC500C70E02 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +233,7 @@
 			files = (
 				C22490A02995DFC600C70E02 /* Preview Assets.xcassets in Resources */,
 				C224909D2995DFC600C70E02 /* Assets.xcassets in Resources */,
+				C20C441629A01250007D1C8E /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +244,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C224909B2995DFC500C70E02 /* ContentView.swift in Sources */,
+				C22490BE2996DB3500C70E02 /* BookPreviewView.swift in Sources */,
+				C22490C42998AAC200C70E02 /* CoreDataViewModel.swift in Sources */,
+				C22490AE2995E10D00C70E02 /* Book.swift in Sources */,
+				C22490AB2995E07A00C70E02 /* config.swift in Sources */,
+				C20C441429A0117E007D1C8E /* LoadingView.swift in Sources */,
+				C22490B32995E54900C70E02 /* BookService.swift in Sources */,
+				C224909B2995DFC500C70E02 /* AddBookView.swift in Sources */,
+				C22490B02995E4B800C70E02 /* BookVM.swift in Sources */,
+				C2E2D17929A00E0C008CB4D7 /* LottieView.swift in Sources */,
+				C22490C72998AB4300C70E02 /* BooksContainer.xcdatamodeld in Sources */,
+				C22490BC2996C65400C70E02 /* HomePage.swift in Sources */,
 				C22490992995DFC500C70E02 /* NoteBookApp.swift in Sources */,
+				C22A0204299CA36A008DF8C9 /* BookDetailView.swift in Sources */,
+				C23984F3299DD8E00066DA09 /* AddNoteView.swift in Sources */,
+				C2E2D175299EC198008CB4D7 /* NoteView.swift in Sources */,
+				C2E2D177299EEA3B008CB4D7 /* NoteCellView.swift in Sources */,
+				C22490C22998A70A00C70E02 /* BookCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +392,14 @@
 				DEVELOPMENT_TEAM = K4ZA43UN7X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Note Book Needs Access to Your Camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +407,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.armanattar.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +427,14 @@
 				DEVELOPMENT_TEAM = K4ZA43UN7X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteBook/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Note Book Needs Access to Your Camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +442,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.armanattar.NoteBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +473,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C20C441029A01166007D1C8E /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		C22490B42995E78D00C70E02 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		C22490B72995EAA400C70E02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C20C441129A01166007D1C8E /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C20C441029A01166007D1C8E /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		C22490B52995E78D00C70E02 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C22490B42995E78D00C70E02 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		C22490B82995EAA400C70E02 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C22490B72995EAA400C70E02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C22490C52998AB4300C70E02 /* BooksContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C22490C62998AB4300C70E02 /* BooksContainer.xcdatamodel */,
+			);
+			currentVersion = C22490C62998AB4300C70E02 /* BooksContainer.xcdatamodel */;
+			path = BooksContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C224908D2995DFC500C70E02 /* Project object */;
 }
