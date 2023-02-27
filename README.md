@@ -1,6 +1,6 @@
 # NoteBook
 
-A note taking app for readers, allowing them to save notes and quotes related to a book they are reading. 
+A note taking app for readers, allowing them to save notes and quotes related to books they are reading. 
 
 [Demo](https://www.armanattar.com/noteBook)
 
