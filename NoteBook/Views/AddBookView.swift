@@ -20,7 +20,8 @@ struct AddBookView: View {
             VStack {
                 HStack{
                     searchBar
-                        .onChange(of: searchText) { _ in
+                        .submitLabel(.search)
+                        .onSubmit {
                             Task{
                                 await vm.searchBook(title: searchText)
                             }
@@ -40,7 +41,7 @@ struct AddBookView: View {
                             secondSheet = true
                         } label: {
                             HStack{
-                                WebImage(url: URL(string: book.coverURL))
+                                WebImage(url: URL(string: book.coverURL ?? ""))
                                     .resizable()
                                     .aspectRatio(contentMode: .fit)
                                     .frame(height: UIScreen.main.bounds.height/7)

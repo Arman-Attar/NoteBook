@@ -31,9 +31,8 @@ struct Book: Codable {
     var id: String
     var volumeInfo: VolumeInfo?
     var searchInfo: SearchInfo?
-    var coverURL: String {
+    var coverURL: String? {
         return "https://books.google.com/books/publisher/content/images/frontcover/\(id)?fife=w400-h600&source=gbs_api"
-
     }
 }
 
