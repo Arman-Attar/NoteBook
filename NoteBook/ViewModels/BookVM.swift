@@ -106,6 +106,10 @@ class BookViewModel: ObservableObject {
         }
     }
     
+    func resetSearedBooks() {
+        self.searchedBooks = []
+    }
+    
     func addBook(book: Book) {
         CoreDataViewModel.shared.addBook(book: book)
         self.books = (CoreDataViewModel.shared.fetchBooks())

@@ -95,6 +95,7 @@ extension AddBookView {
                 Spacer()
                 Button {
                     searchText = ""
+                    vm.resetSearedBooks()
                 } label: {
                     Image(systemName: "xmark.circle.fill")
                 }
