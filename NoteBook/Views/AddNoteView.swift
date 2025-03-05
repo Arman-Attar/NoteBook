@@ -13,7 +13,8 @@ struct AddNoteView: View {
     @State var type: String = "User Note"
     @State var pageNumber: String = ""
     @State var chapter: String = ""
-    @State var note: String = "Enter your note"
+    @State var note: String = ""
+    @State private var isEditing: Bool = false
     @EnvironmentObject var vm: BookViewModel
     @Environment(\.dismiss) var dismiss
     
@@ -32,12 +33,16 @@ struct AddNoteView: View {
                         TextField("Chapter", text: $chapter).keyboardType(.numberPad)
                     }
                     Section("Note") {
-                        TextEditor(text: $note).frame(height: 150)
-                            .onTapGesture {
-                                if note == "Enter your note" {
-                                    note = ""
-                                }
+                        ZStack(alignment: .topLeading) {
+                            if note.isEmpty {
+                                Text("Enter your note")
+                                    .foregroundColor(.gray)
+                                    .padding(.top, 8)
+                                    .padding(.leading, 5)
                             }
+                            TextEditor(text: $note)
+                                .frame(height: 150)
+                        }
                     }
                     Section {
                         Button {
