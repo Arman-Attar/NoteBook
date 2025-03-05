@@ -14,7 +14,7 @@ struct AddNoteView: View {
     @State var pageNumber: String = ""
     @State var chapter: String = ""
     @State var note: String = ""
-    @State private var isEditing: Bool = false
+    @FocusState private var isEditing: Bool
     @EnvironmentObject var vm: BookViewModel
     @Environment(\.dismiss) var dismiss
     
@@ -40,8 +40,15 @@ struct AddNoteView: View {
                                     .padding(.top, 8)
                                     .padding(.leading, 5)
                             }
-                            TextEditor(text: $note)
-                                .frame(height: 150)
+                            VStack {
+                                TextEditor(text: $note)
+                                    .frame(height: 150)
+                                    .focused($isEditing)
+                                Button("Dismiss Keyboard") {
+                                    isEditing = false
+                                }
+                                .padding()
+                            }
                         }
                     }
                     Section {
