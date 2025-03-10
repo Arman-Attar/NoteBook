@@ -30,6 +30,8 @@
 		C2E2D175299EC198008CB4D7 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D174299EC198008CB4D7 /* NoteView.swift */; };
 		C2E2D177299EEA3B008CB4D7 /* NoteCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D176299EEA3B008CB4D7 /* NoteCellView.swift */; };
 		C2E2D17929A00E0C008CB4D7 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E2D17829A00E0C008CB4D7 /* LottieView.swift */; };
+		C2F7D8392D7E83ED00229A9E /* TelemetryClient in Frameworks */ = {isa = PBXBuildFile; productRef = C2F7D8382D7E83ED00229A9E /* TelemetryClient */; };
+		C2F7D83B2D7E83ED00229A9E /* TelemetryDeck in Frameworks */ = {isa = PBXBuildFile; productRef = C2F7D83A2D7E83ED00229A9E /* TelemetryDeck */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +65,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22490B92995EAA400C70E02 /* SDWebImageSwiftUI in Frameworks */,
+				C2F7D8392D7E83ED00229A9E /* TelemetryClient in Frameworks */,
 				C22490B62995E78D00C70E02 /* CodeScanner in Frameworks */,
+				C2F7D83B2D7E83ED00229A9E /* TelemetryDeck in Frameworks */,
 				C20C441229A01166007D1C8E /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +187,8 @@
 				C22490B52995E78D00C70E02 /* CodeScanner */,
 				C22490B82995EAA400C70E02 /* SDWebImageSwiftUI */,
 				C20C441129A01166007D1C8E /* Lottie */,
+				C2F7D8382D7E83ED00229A9E /* TelemetryClient */,
+				C2F7D83A2D7E83ED00229A9E /* TelemetryDeck */,
 			);
 			productName = NoteBook;
 			productReference = C22490952995DFC500C70E02 /* NoteBook.app */;
@@ -216,6 +222,7 @@
 				C22490B42995E78D00C70E02 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 				C22490B72995EAA400C70E02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				C20C441029A01166007D1C8E /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				C2F7D8372D7E83ED00229A9E /* XCRemoteSwiftPackageReference "SwiftSDK" */,
 			);
 			productRefGroup = C22490962995DFC500C70E02 /* Products */;
 			projectDirPath = "";
@@ -389,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NoteBook/Preview Content\"";
 				DEVELOPMENT_TEAM = K4ZA43UN7X;
 				ENABLE_PREVIEWS = YES;
@@ -426,7 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"NoteBook/Preview Content\"";
 				DEVELOPMENT_TEAM = K4ZA43UN7X;
 				ENABLE_PREVIEWS = YES;
@@ -505,6 +512,14 @@
 				kind = branch;
 			};
 		};
+		C2F7D8372D7E83ED00229A9E /* XCRemoteSwiftPackageReference "SwiftSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TelemetryDeck/SwiftSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -522,6 +537,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C22490B72995EAA400C70E02 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		C2F7D8382D7E83ED00229A9E /* TelemetryClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2F7D8372D7E83ED00229A9E /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryClient;
+		};
+		C2F7D83A2D7E83ED00229A9E /* TelemetryDeck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C2F7D8372D7E83ED00229A9E /* XCRemoteSwiftPackageReference "SwiftSDK" */;
+			productName = TelemetryDeck;
 		};
 /* End XCSwiftPackageProductDependency section */
 
