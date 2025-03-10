@@ -8,6 +8,7 @@
 import SwiftUI
 import CodeScanner
 import SDWebImageSwiftUI
+import TelemetryDeck
 
 
 struct AddBookView: View {
@@ -25,10 +26,12 @@ struct AddBookView: View {
                             Task{
                                 await vm.searchBook(title: searchText)
                             }
+                            TelemetryDeck.signal("Name.Search")
                         }
                     Spacer()
                     Button {
                         present.toggle()
+                        TelemetryDeck.signal("QR.Search")
                     } label: {
                         Image(systemName: "barcode.viewfinder")
                             .font(.system(size: 35)).padding(.trailing)

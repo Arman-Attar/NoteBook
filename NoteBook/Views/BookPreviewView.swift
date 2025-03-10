@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SDWebImageSwiftUI
+import TelemetryDeck
 
 struct BookPreviewView: View {
     @EnvironmentObject var vm: BookViewModel
@@ -62,6 +63,7 @@ struct BookPreviewView: View {
                                 } else {
                                     vm.addBook(book: book)
                                 }
+                                TelemetryDeck.signal("Book.Added")
                             } label: {
                                 Text(vm.added ? "Remove from Bookshelf" : "Add to Bookshelf")
                                     .font(.headline)
